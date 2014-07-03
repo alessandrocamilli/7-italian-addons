@@ -123,6 +123,7 @@
     </table>
     <div style="page-break-inside: avoid;">
         <br/>
+        <p></p> # In alcuni casi altrimenti non stampa il totale
         <% tax_code_list = tax_codes() %>
         <% tax_code_totals_list = tax_codes_totals() %>
         <table style="width:100%;  " border="1">
